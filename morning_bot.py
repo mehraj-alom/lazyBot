@@ -83,6 +83,3 @@ requests.post(
 )
 
 
-print("\nMESSAGE SENT:\n")
-
-print(message)
