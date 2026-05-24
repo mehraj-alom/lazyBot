@@ -49,7 +49,7 @@ Style:
 - a quote that is romentic and motivating
 
 
-Keep under 50 words.
+Keep under 20 words.
 
 Add emojis naturally.
 """
