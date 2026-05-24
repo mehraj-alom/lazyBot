@@ -1,8 +1,12 @@
 # lazyBot 
+
  <img width="720" height="354" alt="lazyBot Telegram Notification" src="https://github.com/user-attachments/assets/54d09508-c1f5-4d9b-923a-638ef41e433b" /> 
-A low-noise AI companion that sends one meaningful message daily to keep you focused on becoming who you promised yourself to be.
+
+ ### A low-noise AI companion that sends one meaningful message daily to keep you focused on becoming who you promised yourself to be.
+
 ## Why lazyBot?
-Most productivity systems fail because they become noise.
+
+- Most productivity systems fail because they become noise.
 lazyBot is designed differently:
 
 * **low-noise**
