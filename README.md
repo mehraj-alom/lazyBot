@@ -79,6 +79,7 @@ You are closer than you think. ⚡
 
 
 💡 Philosophy
+
 lazyBot was built around one idea: meaningful signals beat constant noise.
 
 The internet fights for attention every second. This bot exists to reclaim a small part of that attention and redirect it toward building.
