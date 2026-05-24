@@ -24,6 +24,9 @@ client = OpenAI(
     base_url="https://openrouter.ai/api/v1",
     api_key=OPENAI_API_KEY,
 )
+from datetime import datetime
+
+now = datetime.utcnow().strftime('%Y-%m-%d %H:%M UTC')
 
 
 with open("context.txt", "r") as file:
@@ -33,19 +36,20 @@ with open("context.txt", "r") as file:
 prompt = f"""
 {context}
 
-Generate ONE powerful evening Telegram message.
+Generate ONE powerful evening Telegram message.this is the time so send it accordingly {now}
 
 Style:
 - personal
 - emotionally intelligent
 - ambitious
-- slightly romantic/warm
+- slightly romantic/warm , give more focus on it .
 - intense
 - deeply motivating
 - human
 - a quote that is romentic and motivating
 
-Keep under 100 words.
+
+Keep under 50 words.
 
 Add emojis naturally.
 """
