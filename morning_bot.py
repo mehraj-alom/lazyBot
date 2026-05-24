@@ -50,6 +50,9 @@ Style:
 
 
 Keep under 20 words.
+Keep it under 20 Words ..
+Keep it under 20 Words .. 
+i Reapat , Keep it under 20 words..
 
 Add emojis naturally.
 """
