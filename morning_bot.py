@@ -24,9 +24,10 @@ client = OpenAI(
     base_url="https://openrouter.ai/api/v1",
     api_key=OPENAI_API_KEY,
 )
-from datetime import datetime
+from datetime import datetime, timedelta
 
-now = datetime.utcnow().strftime('%Y-%m-%d %H:%M UTC')
+IST = datetime.utcnow() + timedelta(hours=5, minutes=30)
+now = IST.strftime('%Y-%m-%d %H:%M IST')
 
 
 with open("context.txt", "r") as file:
